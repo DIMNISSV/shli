@@ -3,7 +3,7 @@
    protected $db;
 
    public function __construct() {
-    $this->db = new Mysqli('localhost', 'dima', '0J7w4Z4i', 'cc'); // Здесь поставьте данные БД (IP, логин, пароль, название)
+    $this->db = new Mysqli('localhost', 'Nikto', 'Nikakogo', 'cc'); // Здесь поставьте данные БД (IP, логин, пароль, название)
    }
 
    public function generateCode($num) {
