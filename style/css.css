@@ -1,0 +1,39 @@
+body {
+  font: 0.9em Tahoma, sans-serif;
+    max-width: 1000px;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+input[type="url"] {
+  width: 300px;
+}
+
+input[type="url"]:focus {
+  border: 1px solid blue;
+}
+
+input[type="submit"] {
+  padding: 9px;
+  transition: all .3s;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 0 3px #faf;
+  transition: all .3s;
+}
