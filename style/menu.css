@@ -1,0 +1,39 @@
+.menu {
+
+height:70px;
+
+background:#909090;
+
+width:100%;
+
+float: center;
+
+}
+
+.menu-block {
+
+padding:5px;
+
+display: inline-block;
+
+float: center;
+
+height:30px;
+
+background:#898989;
+
+}
+
+.left {
+
+width:200px;
+
+height:1000px;
+
+background:#919191;
+
+margin:0px;
+
+float:left;
+
+}
